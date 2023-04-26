@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs')
 const path = require('path');
 const notes = require('./db/db.json')
+const {v4:uuidv4} = require("uuid")
 
 
 const PORT = 3001;
@@ -39,6 +40,7 @@ app.post('/api/notes',(req,res)=>{
 
     if(title && text){
         const newNote ={
+            id : uuidv4(),
             title,
             text,
         };
