@@ -17,13 +17,13 @@ Note taker application
 
 ## Description 
 
-[Visit the Deployed Site](https://youtu.be/BFyeuLhjcPY)
+[Visit the Deployed Site](https://note-writting.herokuapp.com/)
 
-An application that takes user inputs as notes that persist until deleted.  Old notes can be clicked on and seen again and new notes can be written at any time by choosing the plus symbol in the upper right hand corner. 
+An application that takes user inputs as notes.  Old notes can be clicked on and seen again and new notes can be written at any time by choosing the plus symbol in the upper right hand corner, notes can also be deleted from the left hand menu. 
 
 
 
-![Site Langing Page](./site.gif)
+![Site Langing Page](./public/assets/images/note-taker.gif)
 
 
 ## Table of Contents 
