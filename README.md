@@ -51,8 +51,8 @@ Can be used to take notes
 
 This application is my first application deployed on Heroku which is exciting. It is also my first time creating my own local server and training it how to take get and post responses.  
 *  Express.js
-* Backend get and post requests
-* Client-side Post reuqests
+* Backend get, post and delete requests
+* Client-side Post requests
 * Static files with express.js
 * More with fs and JSON files
 
@@ -65,7 +65,6 @@ This application is my first application deployed on Heroku which is exciting. I
 * [Portfolio](https://sheaschwenn.github.io/Portfolio/)
 * [LinkedIn](https://www.linkedin.com/in/shea-schwennicke-76a378210/)
 * [Github](https://github.com/sheaschwenn)
-
 
 
 
