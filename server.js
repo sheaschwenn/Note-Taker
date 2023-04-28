@@ -8,8 +8,9 @@ const PORT = process.env.PORT || 3001;
 
 const app = express();
 
-// middleware to read json content and access files in the public folder
+// middleware to read json content, url endcoded content and access files in the public folder
 app.use(express.json())
+app.use(express.urlencoded())
 app.use(express.static('public'));
 
 // setting html routes 
